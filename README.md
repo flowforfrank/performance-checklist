@@ -32,21 +32,21 @@
     - 1.1.9. [Request Blocking Drawer](#%EF%B8%8F-request-blocking-drawer)
 
     1.2. [Online Tools](#online-tools)
-    - 1.2.1. [Webhint](#%EF%B8%8F-webhint)  
-    - 1.2.2. [PageSpeed Insights](#%EF%B8%8F-pagespeed-ingsights)  
-    - 1.2.3. [Web.dev](#%EF%B8%8F-web-dev)
-    - 1.2.4. [Bundlephobia](#%EF%B8%8F-bundlephobia)
-    - 1.2.5. [GTMetrix](#%EF%B8%8F-gtmetrix)
-    - 1.2.6. [WebPageTest](#%EF%B8%8F-webpagetest)
-    - 1.2.7. [Pingdom Website Speed Test](#%EF%B8%8F-pingdom-website-speed-test)
-    - 1.2.8. [Varvy](#%EF%B8%8F-varvy)
+    - 1.2.1. [Webhint](#-webhint)  
+    - 1.2.2. [PageSpeed Insights](#-pagespeed-ingsights)  
+    - 1.2.3. [Web.dev](#-web-dev)
+    - 1.2.4. [Bundlephobia](#-bundlephobia)
+    - 1.2.5. [GTMetrix](#-gtmetrix)
+    - 1.2.6. [WebPageTest](#-webpagetest)
+    - 1.2.7. [Pingdom Website Speed Test](#-pingdom-website-speed-test)
+    - 1.2.8. [Varvy](#-varvy)
 
     1.3. [Chrome Extensions](#chrome-extensions)
-    - 1.3.1. [React Developer Tools](#%EF%B8%8F-react-developer-tools)
-    - 1.3.2. [Web Vitals](#%EF%B8%8F-web-vitals)
+    - 1.3.1. [React Developer Tools](#-react-developer-tools)
+    - 1.3.2. [Web Vitals](#-web-vitals)
 2. **🏗️ [HTML Optimization](#%EF%B8%8F-html-optimization)**  
     2.1. [Write Valid and Readable DOM](#%EF%B8%8F-write-valid-and-readable-dom)  
-    2.2. [Don't Use Inline Styles and Scripts](#%EF%B8%8F-don't-use-inline-styles-and-scripts)  
+    2.2. [Don't Use Inline Styles and Scripts](#%EF%B8%8F-dont-use-inline-styles-and-scripts)  
     2.3. [Inline Critical CSS](#%EF%B8%8F-inline-critical-css)  
     2.4. [Place Script Tags at the Bottom](#%EF%B8%8F-place-script-tags-at-the-bottom)  
     2.5. [Avoid Using Plugins](#%EF%B8%8F-avoid-using-plugins)  
@@ -61,7 +61,7 @@
     3.6. [Avoid Complex Selectors](#%EF%B8%8F-avoid-complex-selectors)  
     3.7. [Use Mobile First](#%EF%B8%8F-use-mobile-first)  
     3.8. [Compress CSS](#%EF%B8%8F-compress-css)  
-4. **👨‍💻 [JavaScript Optimization](#%EF%B8%8F-javascript-optimization)**  
+4. **👨‍💻 [JavaScript Optimization](#-javascript-optimization)**  
     4.1. [Defer JavaScript Files](#%EF%B8%8F-defer-javascript-files)  
     4.2. [Update Libraries](#%EF%B8%8F-update-libraries)  
     4.3. [Use Web Workers](#%EF%B8%8F-use-web-workers)  
@@ -77,7 +77,7 @@
     5.5. [Scale Your Images](#%EF%B8%8F-scale-your-images)  
     5.6. [Lazy Load Images](#%EF%B8%8F-lazy-load-images)  
     5.7. [Compress Images](#%EF%B8%8F-compress-images)
-6. **🗛 [Font Optimization](#%EF%B8%8F-font-optimization)**  
+6. **🗛 [Font Optimization](#-font-optimization)**  
     6.1. [Minimize Number of Font Usage](#%EF%B8%8F-minimize-number-of-font-usage)  
     6.2. [Subset Fonts](#%EF%B8%8F-subset-fonts)  
     6.3. [Implement Custom Font-loading Strategies](#%EF%B8%8F-implement-custom-font-loading-strategies)  
@@ -88,18 +88,18 @@
     7.2. [Minimize the Number of HTTP Requests](#%EF%B8%8F-minimize-the-number-of-http-requests)  
     7.3. [Use a CDN](#%EF%B8%8F-use-a-cdn)  
     7.4. [Use a Cache-Control Header](#%EF%B8%8F-use-a-cache-control-header)  
-8. **🇼 [Core Web Vitals](#%EF%B8%8F-core-web-vitals)**  
+8. **🇼 [Core Web Vitals](#-core-web-vitals)**  
     8.1. [Largest Contentful Paint](#%EF%B8%8F-largest-contentful-paint)  
     8.2. [First Input Delay](#%EF%B8%8F-first-input-delay)  
     8.3. [Cumulative Layout Shift](#%EF%B8%8F-cumulative-layout-shift)  
-    8.4. [How to Measure Core Web Vitals?](#%EF%B8%8F-how-to-measure-core-web-vitals?)
+    8.4. [How to Measure Core Web Vitals](#%EF%B8%8F-how-to-measure-core-web-vitals)
 9. **⚛️ [Frameworks](#%EF%B8%8F-frameworks)**  
     9.1. [React Optimization Techniques](#react-optimization-techniques)
     - 9.1.1. [Use Production Build](#%EF%B8%8F-use-production-build)
     - 9.1.2. [Profile Components](#%EF%B8%8F-profile-components)
     - 9.1.3. [Virtualize Long Lists](#%EF%B8%8F-virtualize-long-lists)
     - 9.1.4. [Pre-render Routes](#%EF%B8%8F-pre-render-routes)
-10. **📚 [Other Resources](#%EF%B8%8F-other-resources)**
+10. **📚 [Other Resources](#%-other-resources)**
 
 ## 🛠️ Tools
 ℹ️ *If you can't measure it, you can't improve it - Before you make any changes, the first step is to measure performance. This way, you will have a baseline and you can make comparisons later on. Never make performance optimizations, without first creating a baseline.*
@@ -129,9 +129,7 @@
 >
 > 📖 [Chrome DevTools - Inspect Network Activity In Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/network)
 
-<center>
-    <img src="assets/enable-throttling.png" alt="Enable throttling" />
-</center>
+![Enable throttling](assets/enable-throttling.png)
 
 ----------
 
@@ -177,9 +175,7 @@
 >
 > 📖 [LogRocket - Eliminate content repaints with the new Layers panel in Chrome](https://blog.logrocket.com/eliminate-content-repaints-with-the-new-layers-panel-in-chrome-e2c306d4d752/)
 
-<center>
-    <img src="assets/layers-panel.png" alt="The visuals of the Layers Panel" />
-</center>
+![The visuals of the Layers Panel](assets/layers-panel.png)
 
 ----------
 
@@ -242,27 +238,21 @@
 > #### 📈 [Web.dev](https://web.dev/measure/)
 > Web.dev, generates a similar report to Lighthouse. Identify performance, accessibility, best practices, or SEO problems with your site. See issues with the highest impact on the top of your report.
 
-<center>
-    <img src="assets/webdev-report.png" alt="Report generated on Web.dev" />
-</center>
+![Report generated on Web.dev](assets/webdev-report.png)
 
 ----------
 
 > #### 📈 [Bundlephobia](https://bundlephobia.com/)
 > Bundlephobia lets you find out the real cost of adding npm packages to your bundle, by analyzing the bundle size of each package. You can generate a report by dropping your `package.json` file into the tool. This will generate a report for each package used, how much it adds to your load time, and what is the total cost of all packages combined.
 
-<center>
-    <img src="assets/bundlephobia.png" alt="A generated report from Bundlephobia" />
-</center>
+![A generated report from Bundlephobia](assets/bundlephobia.png)
 
 ----------
 
 > #### 📈 [GTMetrix](https://webhint.io/)
 > GTmetrix helps you discover performance issues and provides you with optimization opportunities. It generates a report for you with the most impactful issues at the top.
 
-<center>
-    <img src="assets/gtmetrix.png" alt="Report generated by GTMetrix" />
-</center>
+![Report generated by GTMetrix](assets/gtmetrix.png)
 
 ----------
 
@@ -322,9 +312,7 @@
 > Consider inlining critical CSS. By doing so, users will get to see the first portion of your page rendered more quickly.
 > *(Critical CSS is also referred to as “above the fold” CSS)*
 
-<center>
-    <img src="assets/critical-css.png" alt="Critical CSS" />
-</center>
+![Critical CSS](assets/critical-css.png)
 
 ----------
 
@@ -333,9 +321,7 @@
 >
 >You can also add a `defer` tag to your script tags to make sure the HTML gets loaded first. To get a good grasp on what is the difference between a normal, and an `async` vs `defer`script tag, take a look at the following example:
 
-<center>
-    <img src="assets/async-vs-defer.png" alt="The difference between async and defer script tags" />
-</center>
+![The difference between async and defer script tags](assets/async-vs-defer.png)
 
 ----------
 
@@ -354,6 +340,29 @@
 > 📖 [Web.dev - Document avoids plugins](https://web.dev/plugins/)
 ----------
 
+> #### ☑️ Reduce the Number of DOM Elements
+> Monitor the number of DOM elements present on your page. Make sure you don't:
+>
+> - Have more than 1500 DOM nodes
+> - Have a depth greater than 32 nodes
+> - Have a parent node with more than 60 children
+> 
+> Having excessive amount of DOM nodes on your page can affect performance in a number of ways:
+>
+> - Slow down initial page load time
+> - Slow down rendering performance
+> - Can cause heavy memory usage
+>
+> 📖 [Web.dev - Avoid an excessive DOM size](https://web.dev/dom-size/)
+
+```javascript
+// The fastest way to count the number of DOM nodes on your site
+// is using the all (*) query selector
+document.querySelectorAll('*').length;
+```
+
+----------
+
 > #### ☑️ Compress HTML
 > Compress your HTML to further reduce file sizes, after you've [validated them](https://validator.w3.org/). You can use third party libraries, build tools, bundlers or online applications for this.
 >
@@ -370,9 +379,7 @@
 > There are now many lightweight alternatives to robust frameworks. Usually, you won’t be using every selector from a framework, so your bundle will contain dead code. you can identify unused CSS rules using code coverage in DevTools.
 >
 
-<center>
-    <img src="assets/coverage-tab.png" alt="Coverage Tab in Chrome's DevTools" />
-</center>
+![Coverage Tab in Chrome's DevTools](assets/coverage-tab.png)
 
 ----------
 
@@ -406,9 +413,7 @@ h1 { ... }
 >
 > 📖 [MDN Web Docs - Shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
 
-<center>
-    <img src="assets/shorthand-properties.gif" alt="Using CSS Shorthand Properties" />
-</center>
+![Using CSS Shorthand Properties](assets/shorthand-properties.gif)
 
 ----------
 
@@ -491,9 +496,7 @@ h1 { ... }
 > - **Gulp**: use the [`gulp-minify-cssnames`](https://www.npmjs.com/package/gulp-minify-cssnames) plugin
 > - **Own implementation:** if you don't have a dedicated package for your project, you can also [use your own implementation](https://www.webtips.dev/how-i-reduced-my-css-bundle-size-by-more-than-20-percent).
 
-<center>
-    <img src="assets/minify-class-names.png" alt="Minified CSS Classnames" />
-</center>
+![Minified CSS Classnames](assets/minify-class-names.png)
 
 ----------
 
@@ -538,18 +541,14 @@ h1 { ... }
 >
 > 📖 [MDN Web Docs - Intensive JavaScript](https://developer.mozilla.org/en-US/docs/Tools/Performance/Scenarios/Intensive_JavaScript)
 
-<center>
-    <img src="assets/long-running-javascript-task.png" alt="Long-running JavaScript Tasks" />
-</center>
+![Long-running JavaScript Tasks](assets/long-running-javascript-task.png)
 
 ----------
 
 > #### ☑️ Use the Coverage Drawer
 > The coverage tab can be a powerful tool to see which code you truly need during page load. Anything that you see in red on the image below, is not executed right away. This means you can potentially defer and request it after loading has finished.
 
-<center>
-    <img src="assets/javascript-code-coverage.png" alt="JavaScript Code Coverage" />
-</center>
+![JavaScript Code Coverage](assets/javascript-code-coverage.png)
 
 ----------
 
@@ -585,9 +584,7 @@ h1 { ... }
 >
 > 📖 [Shutterstock - Raster vs. Vector: What’s the Difference and When to Use Which](https://www.shutterstock.com/blog/raster-vs-vector-file-formats)
 
-<center>
-    <img src="assets/vector-vs-raster.png" alt="The difference between vector and raster images" />
-</center>
+![The difference between vector and raster images](assets/vector-vs-raster.png)
 
 ----------
 
@@ -606,9 +603,7 @@ h1 { ... }
 > 4. *"Do I have more than 256 colors in my palette?"* 👉 go with **PNG-24**
 > 5. Otherwise, go with **PNG-8**
 
-<center>
-    <img src="assets/how-to-choose-raster-format.png" alt="How to choose the right raster format" />
-</center>
+![How to choose the right raster format](assets/how-to-choose-raster-format.png)
 
 ----------
 
@@ -619,9 +614,7 @@ h1 { ... }
 >
 > 📖 [MDN web docs - Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-<center>
-    <img src="assets/natural-vs-display-size.png" alt="Natural (intrinsic) vs display size of the image shown in DevTools" />
-</center>
+![Natural (intrinsic) vs display size of the image shown in DevTools](assets/natural-vs-display-size.png)
 
 ```html
 <!-- Use `srcset` with sizes to display different images based on screen size -->
@@ -681,9 +674,7 @@ if ('loading' in HTMLImageElement.prototype) {
 >
 > You can experiment with font load times on [Google Fonts](https://fonts.google.com/).
 
-<center>
-    <img src="assets/font-load-time.png" alt="Font load time shown on Google Fonts" />
-</center>
+![Font load time shown on Google Fonts](assets/font-load-time.png)
 
 ----------
 
@@ -727,9 +718,7 @@ if ('loading' in HTMLImageElement.prototype) {
 >
 > 📖 [Akamai - Understanding Brotli's Potential](https://blogs.akamai.com/2016/02/understanding-brotlis-potential.html)
 
-<center>
-    <img src="assets/accept-encoding-header.png" alt="Accept-Encoding Request Header" />
-</center>
+![Accept-Encoding Request Header](assets/accept-encoding-header.png)
 
 ----------
 
@@ -828,7 +817,7 @@ if ('loading' in HTMLImageElement.prototype) {
 ## ⚛️ Frameworks
 ℹ️ *JavaScript Frameworks deserves a whole section on its own, as each can come with performance best practices on top of vanilla JavaScript.*
 
-### React
+### React Optimization Techniques
 ℹ️ *A component-based declarative JavaScript Library for building user interfaces both on the web and mobile.*
 
 > #### ☑️ Use Production Build
@@ -871,7 +860,7 @@ if ('loading' in HTMLImageElement.prototype) {
     - 📖 [Webtips.dev - 5 Best Practices for Clean JavaScript](https://www.webtips.dev/5-best-practices-for-clean-javascript)
     - 📖 [Web Fundamentals - Optimize JavaScript Execution](https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution)
     
-- 🗛 Font
+- 🗛 Fonts
     - 📖 [Smashing Magazine - Optimizing Google Fonts Performance](https://www.smashingmagazine.com/2019/06/optimizing-google-fonts-performance/)
     - 📺 [YouTube:DevTips - Font Loading Performance 📉 6 Experiments with FOUT & FOIT](https://www.youtube.com/watch?v=vTf9HRTWKtM)
 
