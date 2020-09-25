@@ -99,7 +99,7 @@
     - 9.1.2. [Profile Components](#%EF%B8%8F-profile-components)
     - 9.1.3. [Virtualize Long Lists](#%EF%B8%8F-virtualize-long-lists)
     - 9.1.4. [Pre-render Routes](#%EF%B8%8F-pre-render-routes)
-10. **📚 [Other Resources](#%-other-resources)**
+10. **📚 [Other Resources](#-other-resources)**
 
 ## 🛠️ Tools
 ℹ️ *If you can't measure it, you can't improve it - Before you make any changes, the first step is to measure performance. This way, you will have a baseline and you can make comparisons later on. Never make performance optimizations, without first creating a baseline.*
