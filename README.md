@@ -12,7 +12,7 @@
     <a href="https://twitter.com/flowforfrank"><img src="https://img.shields.io/badge/Twitter-15202B.svg?logo=Twitter" alt="Follow on Twitter"/></a>
     <a href="https://medium.com/@ferencalmasi"><img src="https://img.shields.io/badge/Medium-000.svg?logo=medium" alt="Follow on Medium"/></a>
     <br />
-    <a href="https://www.buymeacoffee.com/flowforfrank" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Support on Buy Me A Coffee" width="150px"></a>
+    <a href="https://www.buymeacoffee.com/webtips" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Support on Buy Me A Coffee" width="150px"></a>
     <br />• • •<br />
     <a href="https://github.com/flowforfrank/seo-checklist" alt="Check out the SEO checklist">🕵️ SEO Checklist</a>
 </p>
@@ -33,8 +33,8 @@
 
     1.2. [Online Tools](#online-tools)
     - 1.2.1. [Webhint](#-webhint)  
-    - 1.2.2. [PageSpeed Insights](#-pagespeed-ingsights)  
-    - 1.2.3. [Web.dev](#-web-dev)
+    - 1.2.2. [PageSpeed Insights](#-pagespeed-insights)  
+    - 1.2.3. [Web.dev](#-webdev)
     - 1.2.4. [Bundlephobia](#-bundlephobia)
     - 1.2.5. [GTMetrix](#-gtmetrix)
     - 1.2.6. [WebPageTest](#-webpagetest)
@@ -78,7 +78,7 @@
     5.6. [Lazy Load Images](#%EF%B8%8F-lazy-load-images)  
     5.7. [Compress Images](#%EF%B8%8F-compress-images)
 6. **🗛 [Font Optimization](#-font-optimization)**  
-    6.1. [Minimize Number of Font Usage](#%EF%B8%8F-minimize-number-of-font-usage)  
+    6.1. [Minimize Number of Font Use](#%EF%B8%8F-minimize-number-of-font-use)  
     6.2. [Subset Fonts](#%EF%B8%8F-subset-fonts)  
     6.3. [Implement Custom Font-loading Strategies](#%EF%B8%8F-implement-custom-font-loading-strategies)  
     6.4. [Cache Fonts](#%EF%B8%8F-cache-fonts)  
@@ -319,7 +319,7 @@
 > #### ☑️ Place Script Tags at the Bottom
 > This way, all the content of the body will get loaded in, before you load the content of the script tag. In return, you can trick your users into believing that your page is loading faster than it actually is.
 >
->You can also add a `defer` tag to your script tags to make sure the HTML gets loaded first. To get a good grasp on what is the difference between a normal, and an `async` vs `defer`script tag, take a look at the following example:
+>You can also add a `defer` tag to your script tags to make sure the HTML gets loaded first. To get a good grasp on what is the difference between a normal, and an `async` vs `defer` script tag, take a look at the following example:
 
 ![The difference between async and defer script tags](assets/async-vs-defer.png)
 
@@ -648,7 +648,7 @@ alt="No need for introduction, you already know him" />
 ```
 
 ```javascript
-// Make sure you provide fallback for borwsers that do not support the `loading` attribute.
+// Make sure you provide fallback for browsers that do not support the `loading` attribute.
 if ('loading' in HTMLImageElement.prototype) { 
     // This means the browser supports lazy-loading natively, you are good to go
 } else {
@@ -669,7 +669,7 @@ if ('loading' in HTMLImageElement.prototype) {
 ## 🗛 Font Optimization
 ℹ️ *Just like for images, in order to know where you can make improvements, you need to first monitor your font usage, although the techniques mentioned here apply to all fonts.*
 
-> #### ☑️ Minimize Number of Font Usage
+> #### ☑️ Minimize Number of Font Use
 > The simplest and easiest to implement is minimizing the number of fonts used on a page and the number of variants used for each font family. This not only helps in terms of performance, but also creates a more consistent design, making way for better user experience.
 >
 > You can experiment with font load times on [Google Fonts](https://fonts.google.com/).
@@ -689,7 +689,7 @@ if ('loading' in HTMLImageElement.prototype) {
 > #### ☑️ Implement Custom Font-loading Strategies
 > By default, font requests are put aside, until the render tree is constructed, meaning we have both DOM and CSSOM ready. This can result in delayed text rendering. By using `rel="preload"`, you can tell the browser to treat the resource with high priority, so fonts can be requested early on.
 >
-> 📖 [CSS Tricks - A Comprehensive Guide to Font Loading Strategies](https://css-tricks.com/comprehensive-guide-font-loading-strategies/)
+> 📖 [CSS Tricks - A Comprehensive Guide to Font Loading Strategies](https://css-tricks.com/comprehensive-guide-font-loading-strategies/)  
 > 📖 [Web.dev - Preload key requests](https://web.dev/uses-rel-preload/)
 
 ```html
