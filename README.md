@@ -40,6 +40,7 @@
     - 1.2.6. [WebPageTest](#-webpagetest)
     - 1.2.7. [Pingdom Website Speed Test](#-pingdom-website-speed-test)
     - 1.2.8. [Varvy](#-varvy)
+    - 1.2.9. [DebugBear](#-debugbear)
 
     1.3. [Chrome Extensions](#chrome-extensions)
     - 1.3.1. [React Developer Tools](#-react-developer-tools)
@@ -273,6 +274,14 @@
 
 > #### 📈 [Varvy](https://varvy.com/pagespeed/)
 > The Varvy SEO tools are now unavailable due to their legacy nature. We're hoping to get them back sometime in the future.
+----------
+
+> #### 📈 [DebugBear](https://www.debugbear.com/test/website-speed)
+> DebugBear analyzes your website performance and generates a detailed report:
+> - Request Waterfall
+> - Automatic page speed recommendations
+> - Real user Core Web Vitals data from Google
+> - Lighthouse report
 ----------
 
 ### Chrome Extensions
