@@ -41,6 +41,7 @@
     - 1.2.7. [Pingdom Website Speed Test](#-pingdom-website-speed-test)
     - 1.2.8. [Varvy](#-varvy)
     - 1.2.9. [DebugBear](#-debugbear)
+    - 1.2.10. [Core Web Vitals History Checker](#-core-web-vitals-history-checker)
 
     1.3. [Chrome Extensions](#chrome-extensions)
     - 1.3.1. [React Developer Tools](#-react-developer-tools)
@@ -283,6 +284,12 @@
 > - Real user Core Web Vitals data from Google
 > - Lighthouse report
 ----------
+
+> #### 📈 [Core Web Vitals History Checker](https://punits.dev/core-web-vitals-historical/)
+> Know if the core web vitals for a url or an origin have improved, degraded or remained stable for the last six months.
+----------
+
+Core Web Vitals History Checker
 
 ### Chrome Extensions
 ℹ️ *Chrome extensions can help you enhance your workflow by providing some additional debugging tools on top of Chrome DevTools*
